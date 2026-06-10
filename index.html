@@ -1,0 +1,1799 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Everlock Home Supply — Novik Siding &amp; Roofing, Factory Direct</title>
+  <meta name="description" content="Factory-direct Novik polymer siding and roofing. Wood look, stone look, and brick look panels. Nationwide LTL shipping. Limited lifetime warranty. Family-owned in Colorado since 1981.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "name": "Everlock Home Supply",
+        "url": "https://everlockhomesupply.com",
+        "telephone": "+18008433336",
+        "email": "info@skirtingdirect.com",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Boulder",
+          "addressRegion": "CO",
+          "addressCountry": "US"
+        },
+        "foundingDate": "1981",
+        "description": "Exclusive online supplier of Novik polymer siding and roofing. Factory-direct from Colorado since 1981. DIY-friendly panels for conventional homes, mobile homes, and manufactured homes.",
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+          "opens": "09:00",
+          "closes": "16:00"
+        },
+        "sameAs": [
+          "https://www.skirtingdirect.com",
+          "https://www.everlock.com"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "name": "Everlock Home Supply",
+        "url": "https://everlockhomesupply.com",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://everlockhomesupply.com/search?q={search_term_string}"
+          },
+          "query-input": "required name=search_term_string"
+        }
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    /* ============================================================
+       DESIGN TOKENS
+    ============================================================ */
+    :root {
+      --green:       #006400;
+      --green-dark:  #004d00;
+      --green-light: #e8f4e8;
+      --navy:        #003366;
+      --navy-dark:   #002244;
+      --earth:       #f5f2ed;
+      --earth-dark:  #e8e3db;
+      --charcoal:    #1c1c1c;
+      --mid:         #4a5568;
+      --muted:       #718096;
+      --border:      #ddd8d0;
+      --white:       #ffffff;
+
+      --font:        'Inter', system-ui, sans-serif;
+
+      --text-xs:    clamp(0.75rem,  1.5vw, 0.8rem);
+      --text-sm:    clamp(0.875rem, 1.8vw, 0.9375rem);
+      --text-base:  clamp(1rem,     2vw,   1.0625rem);
+      --text-lg:    clamp(1.125rem, 2.2vw, 1.25rem);
+      --text-xl:    clamp(1.25rem,  2.5vw, 1.5rem);
+      --text-2xl:   clamp(1.5rem,   3vw,   1.875rem);
+      --text-3xl:   clamp(1.875rem, 3.5vw, 2.25rem);
+      --text-4xl:   clamp(2.25rem,  4.5vw, 3rem);
+      --text-5xl:   clamp(2.75rem,  6vw,   4rem);
+
+      --space-1:  0.25rem;
+      --space-2:  0.5rem;
+      --space-3:  0.75rem;
+      --space-4:  1rem;
+      --space-5:  1.25rem;
+      --space-6:  1.5rem;
+      --space-8:  2rem;
+      --space-10: 2.5rem;
+      --space-12: 3rem;
+      --space-16: 4rem;
+      --space-20: 5rem;
+      --space-24: 6rem;
+
+      --radius-sm: 4px;
+      --radius:    8px;
+      --radius-lg: 12px;
+
+      --shadow-sm: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.05);
+      --shadow:    0 4px 12px rgba(0,0,0,0.10), 0 2px 4px rgba(0,0,0,0.06);
+      --shadow-lg: 0 10px 30px rgba(0,0,0,0.14), 0 4px 8px rgba(0,0,0,0.08);
+
+      --max-w: 1200px;
+      --gutter: clamp(1rem, 4vw, 2rem);
+    }
+
+    /* ============================================================
+       RESET & BASE
+    ============================================================ */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: var(--font);
+      font-size: var(--text-base);
+      color: var(--charcoal);
+      background: var(--white);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+    img { display: block; max-width: 100%; height: auto; }
+    a { color: inherit; text-decoration: none; }
+    ul { list-style: none; }
+    button { font-family: inherit; cursor: pointer; border: none; background: none; }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+    }
+
+    /* ============================================================
+       LAYOUT HELPERS
+    ============================================================ */
+    .container {
+      max-width: var(--max-w);
+      margin-inline: auto;
+      padding-inline: var(--gutter);
+    }
+
+    /* ============================================================
+       UTILITY BAR
+    ============================================================ */
+    .utility-bar {
+      background: var(--charcoal);
+      color: rgba(255,255,255,0.85);
+      font-size: var(--text-xs);
+      font-weight: 500;
+      letter-spacing: 0.02em;
+    }
+    .utility-bar .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 2.25rem;
+      gap: var(--space-4);
+    }
+    .utility-bar a { color: inherit; }
+    .utility-bar a:hover { color: var(--white); }
+    .utility-tagline { display: none; }
+    @media (min-width: 640px) { .utility-tagline { display: block; } }
+    .utility-contact {
+      display: flex;
+      align-items: center;
+      gap: var(--space-4);
+    }
+    .utility-contact a {
+      display: flex;
+      align-items: center;
+      gap: var(--space-1);
+    }
+
+    /* ============================================================
+       HEADER / NAV
+    ============================================================ */
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: var(--white);
+      border-bottom: 1px solid var(--border);
+      box-shadow: var(--shadow-sm);
+    }
+    .header-inner {
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      align-items: center;
+      height: 4.5rem;
+      gap: var(--space-6);
+    }
+
+    /* Logo */
+    .site-logo {
+      display: flex;
+      align-items: center;
+      gap: var(--space-3);
+      flex-shrink: 0;
+    }
+    .logo-mark {
+      width: 2.5rem;
+      height: 2.5rem;
+      background: var(--green);
+      border-radius: var(--radius-sm);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .logo-mark svg { color: var(--white); }
+    .logo-text {
+      display: flex;
+      flex-direction: column;
+      line-height: 1.1;
+    }
+    .logo-name {
+      font-size: var(--text-sm);
+      font-weight: 700;
+      color: var(--charcoal);
+      letter-spacing: -0.01em;
+      white-space: nowrap;
+    }
+    .logo-sub {
+      font-size: 0.65rem;
+      font-weight: 500;
+      color: var(--muted);
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+
+    /* Desktop Nav */
+    .primary-nav {
+      display: none;
+      align-items: center;
+      gap: var(--space-1);
+    }
+    @media (min-width: 1024px) { .primary-nav { display: flex; } }
+
+    .nav-item { position: relative; }
+    .nav-link {
+      display: flex;
+      align-items: center;
+      gap: var(--space-1);
+      padding: var(--space-2) var(--space-3);
+      font-size: var(--text-sm);
+      font-weight: 500;
+      color: var(--mid);
+      border-radius: var(--radius-sm);
+      transition: color 0.15s, background 0.15s;
+      white-space: nowrap;
+    }
+    .nav-link:hover,
+    .nav-link:focus-visible {
+      color: var(--green);
+      background: var(--green-light);
+      outline: none;
+    }
+    .nav-link svg { flex-shrink: 0; transition: transform 0.2s; }
+    .nav-item:hover .nav-link svg,
+    .nav-item:focus-within .nav-link svg { transform: rotate(180deg); }
+
+    /* Dropdown */
+    .nav-dropdown {
+      position: absolute;
+      top: calc(100% + 0.5rem);
+      left: 0;
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow-lg);
+      padding: var(--space-2);
+      min-width: 13rem;
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(-6px);
+      transition: opacity 0.15s, transform 0.15s, visibility 0.15s;
+    }
+    .nav-item:hover .nav-dropdown,
+    .nav-item:focus-within .nav-dropdown {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+    }
+    .dropdown-link {
+      display: block;
+      padding: var(--space-2) var(--space-3);
+      font-size: var(--text-sm);
+      color: var(--mid);
+      border-radius: var(--radius-sm);
+      transition: color 0.12s, background 0.12s;
+    }
+    .dropdown-link:hover,
+    .dropdown-link:focus-visible {
+      color: var(--green);
+      background: var(--green-light);
+      outline: none;
+    }
+    .dropdown-divider {
+      height: 1px;
+      background: var(--border);
+      margin: var(--space-2) 0;
+    }
+
+    /* Header Actions */
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: var(--space-3);
+    }
+    .btn-phone {
+      display: none;
+      align-items: center;
+      gap: var(--space-2);
+      font-size: var(--text-sm);
+      font-weight: 600;
+      color: var(--green);
+      padding: var(--space-2) var(--space-3);
+      border: 1.5px solid var(--green);
+      border-radius: var(--radius-sm);
+      transition: background 0.15s, color 0.15s;
+      white-space: nowrap;
+    }
+    @media (min-width: 768px) { .btn-phone { display: flex; } }
+    .btn-phone:hover { background: var(--green); color: var(--white); }
+
+    .btn-cart {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 2.75rem;
+      height: 2.75rem;
+      border-radius: var(--radius-sm);
+      color: var(--mid);
+      transition: color 0.15s, background 0.15s;
+    }
+    .btn-cart:hover { color: var(--green); background: var(--green-light); }
+    .cart-count {
+      position: absolute;
+      top: 0.25rem;
+      right: 0.25rem;
+      background: var(--green);
+      color: var(--white);
+      font-size: 0.6rem;
+      font-weight: 700;
+      width: 1rem;
+      height: 1rem;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* Mobile menu toggle */
+    .btn-menu {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 2.75rem;
+      height: 2.75rem;
+      border-radius: var(--radius-sm);
+      color: var(--mid);
+      transition: color 0.15s, background 0.15s;
+    }
+    @media (min-width: 1024px) { .btn-menu { display: none; } }
+    .btn-menu:hover { color: var(--green); background: var(--green-light); }
+
+    /* ============================================================
+       HERO
+    ============================================================ */
+    .hero {
+      position: relative;
+      min-height: clamp(500px, 80svh, 700px);
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+    }
+    /* Photo placeholder — replace with <img> or background-image in production */
+    .hero-bg {
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(135deg, rgba(0,25,8,0.75) 0%, rgba(0,18,36,0.62) 55%, rgba(0,18,36,0.45) 100%),
+        url('images/els-slide8.jpg') center/cover no-repeat;
+      background-color: #1a2e1a;
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 1;
+      padding-block: var(--space-20);
+      max-width: 660px;
+    }
+    .hero-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--space-2);
+      font-size: var(--text-xs);
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.65);
+      margin-bottom: var(--space-5);
+    }
+    .hero-eyebrow-dot {
+      width: 6px;
+      height: 6px;
+      background: #4ade80;
+      border-radius: 50%;
+    }
+    .hero-headline {
+      font-size: var(--text-5xl);
+      font-weight: 800;
+      color: var(--white);
+      line-height: 1.08;
+      letter-spacing: -0.03em;
+      margin-bottom: var(--space-6);
+      text-wrap: balance;
+    }
+    .hero-headline em {
+      font-style: normal;
+      color: #86efac;
+    }
+    .hero-sub {
+      font-size: var(--text-lg);
+      color: rgba(255,255,255,0.78);
+      line-height: 1.55;
+      margin-bottom: var(--space-10);
+      max-width: 520px;
+    }
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: var(--space-3);
+    }
+
+    /* ============================================================
+       BUTTONS
+    ============================================================ */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--space-2);
+      padding: 0.75rem 1.5rem;
+      font-size: var(--text-base);
+      font-weight: 600;
+      border-radius: var(--radius-sm);
+      transition: background 0.15s, color 0.15s, box-shadow 0.15s, transform 0.1s;
+      min-height: 3rem;
+      min-width: 3rem;
+      white-space: nowrap;
+    }
+    .btn:active { transform: translateY(1px); }
+    .btn-primary {
+      background: var(--green);
+      color: var(--white);
+    }
+    .btn-primary:hover { background: var(--green-dark); box-shadow: 0 4px 12px rgba(0,100,0,0.3); }
+    .btn-outline-white {
+      background: transparent;
+      color: var(--white);
+      border: 2px solid rgba(255,255,255,0.5);
+    }
+    .btn-outline-white:hover { background: rgba(255,255,255,0.12); border-color: rgba(255,255,255,0.8); }
+    .btn-secondary {
+      background: var(--earth);
+      color: var(--charcoal);
+      border: 1.5px solid var(--border);
+    }
+    .btn-secondary:hover { background: var(--earth-dark); }
+    .btn-navy {
+      background: var(--navy);
+      color: var(--white);
+    }
+    .btn-navy:hover { background: var(--navy-dark); }
+    .btn-ghost {
+      background: transparent;
+      color: var(--green);
+      font-weight: 600;
+      padding-inline: 0;
+      min-height: auto;
+    }
+    .btn-ghost:hover { color: var(--green-dark); }
+    .btn-sm { padding: 0.5rem 1rem; font-size: var(--text-sm); min-height: 2.5rem; }
+    .btn-lg { padding: 1rem 2rem; font-size: var(--text-lg); min-height: 3.5rem; }
+
+    /* ============================================================
+       TRUST ROW
+    ============================================================ */
+    .trust-row {
+      background: var(--white);
+      border-bottom: 1px solid var(--border);
+    }
+    .trust-row .container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0;
+    }
+    @media (min-width: 768px) {
+      .trust-row .container { grid-template-columns: repeat(4, 1fr); }
+    }
+    .trust-item {
+      display: flex;
+      align-items: center;
+      gap: var(--space-3);
+      padding: var(--space-5) var(--space-4);
+      border-right: 1px solid var(--border);
+    }
+    .trust-item:last-child { border-right: none; }
+    @media (max-width: 767px) {
+      .trust-item:nth-child(2) { border-right: none; }
+      .trust-item:nth-child(3) { border-top: 1px solid var(--border); }
+    }
+    .trust-icon {
+      width: 2.5rem;
+      height: 2.5rem;
+      background: var(--green-light);
+      border-radius: var(--radius);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      color: var(--green);
+    }
+    .trust-stat {
+      font-size: var(--text-2xl);
+      font-weight: 800;
+      color: var(--charcoal);
+      line-height: 1;
+    }
+    .trust-label {
+      font-size: var(--text-xs);
+      font-weight: 500;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      margin-top: 2px;
+    }
+
+    /* ============================================================
+       SECTION SHARED
+    ============================================================ */
+    .section { padding-block: var(--space-20); }
+    .section-alt { background: var(--earth); }
+    .section-dark { background: var(--navy); color: var(--white); }
+
+    .section-label {
+      display: inline-block;
+      font-size: var(--text-xs);
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--green);
+      margin-bottom: var(--space-3);
+    }
+    .section-dark .section-label { color: #86efac; }
+
+    .section-heading {
+      font-size: var(--text-4xl);
+      font-weight: 800;
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+      color: var(--charcoal);
+      text-wrap: balance;
+    }
+    .section-dark .section-heading { color: var(--white); }
+
+    .section-sub {
+      font-size: var(--text-lg);
+      color: var(--mid);
+      line-height: 1.6;
+      margin-top: var(--space-4);
+      max-width: 560px;
+    }
+    .section-dark .section-sub { color: rgba(255,255,255,0.72); }
+
+    .section-header { margin-bottom: var(--space-12); }
+    .section-header-centered {
+      text-align: center;
+      margin-bottom: var(--space-12);
+    }
+    .section-header-centered .section-sub { margin-inline: auto; }
+
+    /* ============================================================
+       PRODUCT CATEGORY TILES
+    ============================================================ */
+    .categories-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: var(--space-4);
+    }
+    @media (min-width: 640px) {
+      .categories-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (min-width: 1024px) {
+      .categories-grid { grid-template-columns: repeat(4, 1fr); }
+    }
+
+    .category-card {
+      position: relative;
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      aspect-ratio: 3/4;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      text-decoration: none;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    @media (min-width: 1024px) {
+      .category-card { aspect-ratio: 2/3; }
+    }
+    .category-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); }
+    .category-card:focus-visible { outline: 3px solid var(--green); outline-offset: 2px; }
+
+    /* Photo placeholders per category */
+    .category-card-bg {
+      position: absolute;
+      inset: 0;
+      background-size: cover;
+      background-position: center;
+      transition: transform 0.4s;
+    }
+    .category-card:hover .category-card-bg { transform: scale(1.04); }
+
+    .cat-wood .category-card-bg {
+      background: url('https://everlockhomesupply.com/mm5/data1/images/slide_5.jpg') center/cover no-repeat;
+      background-color: #3d2b1a;
+    }
+    .cat-stone .category-card-bg {
+      background: url('https://everlockhomesupply.com/mm5/data1/images/slide_6.jpg') center/cover no-repeat;
+      background-color: #3a3530;
+    }
+    .cat-roofing .category-card-bg {
+      background: url('https://everlockhomesupply.com/mm5/data1/images/slide_1.jpg') center/cover no-repeat;
+      background-color: #1e2530;
+    }
+    .cat-accessories .category-card-bg {
+      background: url('https://everlockhomesupply.com/mm5/data1/images/slide_12.jpg') center/cover no-repeat;
+      background-color: #2d3525;
+    }
+
+    /* In production, swap .category-card-bg backgrounds with real photography */
+
+    .category-card-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(0,0,0,0.78) 0%, rgba(0,0,0,0.2) 55%, transparent 100%);
+    }
+    .category-card-content {
+      position: relative;
+      z-index: 1;
+      padding: var(--space-6);
+    }
+    .category-tag {
+      display: inline-block;
+      font-size: var(--text-xs);
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.6);
+      margin-bottom: var(--space-2);
+    }
+    .category-name {
+      font-size: var(--text-xl);
+      font-weight: 700;
+      color: var(--white);
+      line-height: 1.2;
+      margin-bottom: var(--space-3);
+    }
+    .category-count {
+      font-size: var(--text-sm);
+      color: rgba(255,255,255,0.7);
+    }
+    .category-arrow {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--space-2);
+      font-size: var(--text-sm);
+      font-weight: 600;
+      color: #86efac;
+      margin-top: var(--space-3);
+      transition: gap 0.15s;
+    }
+    .category-card:hover .category-arrow { gap: var(--space-3); }
+
+    /* ============================================================
+       HOW IT WORKS
+    ============================================================ */
+    .steps-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: var(--space-8);
+    }
+    @media (min-width: 640px) {
+      .steps-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (min-width: 1024px) {
+      .steps-grid { grid-template-columns: repeat(4, 1fr); position: relative; }
+      .steps-grid::before {
+        content: '';
+        position: absolute;
+        top: 2rem;
+        left: calc(12.5% + 1rem);
+        right: calc(12.5% + 1rem);
+        height: 1px;
+        background: repeating-linear-gradient(90deg, var(--border) 0, var(--border) 8px, transparent 8px, transparent 16px);
+        z-index: 0;
+      }
+    }
+    .step {
+      position: relative;
+      z-index: 1;
+    }
+    .step-num {
+      width: 4rem;
+      height: 4rem;
+      background: var(--green);
+      color: var(--white);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: var(--text-xl);
+      font-weight: 800;
+      margin-bottom: var(--space-5);
+      box-shadow: 0 0 0 6px var(--earth-dark);
+    }
+    .step-title {
+      font-size: var(--text-lg);
+      font-weight: 700;
+      color: var(--charcoal);
+      margin-bottom: var(--space-2);
+    }
+    .step-desc {
+      font-size: var(--text-sm);
+      color: var(--mid);
+      line-height: 1.6;
+    }
+
+    /* ============================================================
+       SAMPLE ORDER SECTION
+    ============================================================ */
+    .sample-section {
+      padding-block: var(--space-20);
+    }
+    .sample-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: var(--space-12);
+      align-items: center;
+    }
+    @media (min-width: 768px) {
+      .sample-grid { grid-template-columns: 1fr 1fr; }
+    }
+    .sample-media {
+      background: var(--earth);
+      border-radius: var(--radius-lg);
+      aspect-ratio: 4/3;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid var(--border);
+      overflow: hidden;
+      position: relative;
+    }
+    .sample-media-inner {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      gap: var(--space-2);
+      padding: var(--space-6);
+      width: 100%;
+      height: 100%;
+    }
+    .sample-chip {
+      border-radius: var(--radius-sm);
+      display: flex;
+      align-items: flex-end;
+      padding: var(--space-2);
+      font-size: 0.6rem;
+      font-weight: 600;
+      color: rgba(255,255,255,0.8);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .chip-cedar     { background: url('https://everlockhomesupply.com/mm5/graphics/00000001/rs8-color18.jpg') center/cover no-repeat; background-color: #6b4c2a; }
+    .chip-stone     { background: url('https://everlockhomesupply.com/mm5/graphics/00000001/ssp-color216.jpg') center/cover no-repeat; background-color: #5a5550; }
+    .chip-brick     { background: url('https://everlockhomesupply.com/mm5/graphics/00000001/hlb-color204.jpg') center/cover no-repeat; background-color: #7a3020; }
+    .chip-shake     { background: url('https://everlockhomesupply.com/mm5/graphics/00000001/rs8-color65.jpg') center/cover no-repeat; background-color: #4a3820; }
+    .chip-fieldstone{ background: url('https://everlockhomesupply.com/mm5/graphics/00000001/ssp-color217.jpg') center/cover no-repeat; background-color: #4a4540; }
+    .chip-slate     { background: url('https://everlockhomesupply.com/mm5/graphics/00000001/hlb-color206.jpg') center/cover no-repeat; background-color: #2a3040; }
+    .sample-label-badge {
+      position: absolute;
+      top: var(--space-4);
+      left: var(--space-4);
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      padding: var(--space-1) var(--space-3);
+      font-size: var(--text-xs);
+      font-weight: 600;
+      color: var(--charcoal);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .sample-price {
+      display: inline-flex;
+      align-items: baseline;
+      gap: var(--space-1);
+      margin-top: var(--space-6);
+      margin-bottom: var(--space-2);
+    }
+    .sample-price-amount {
+      font-size: var(--text-3xl);
+      font-weight: 800;
+      color: var(--green);
+    }
+    .sample-price-unit {
+      font-size: var(--text-sm);
+      color: var(--muted);
+    }
+    .sample-fine {
+      font-size: var(--text-sm);
+      color: var(--muted);
+      margin-bottom: var(--space-6);
+    }
+
+    /* ============================================================
+       COMPANY STORY
+    ============================================================ */
+    .story-section {
+      background: var(--earth);
+      padding-block: var(--space-20);
+    }
+    .story-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: var(--space-12);
+      align-items: center;
+    }
+    @media (min-width: 768px) {
+      .story-grid { grid-template-columns: 1fr 1fr; }
+    }
+    .story-stats {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: var(--space-4);
+      margin-top: var(--space-8);
+    }
+    .story-stat {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: var(--space-5);
+    }
+    .story-stat-num {
+      font-size: var(--text-3xl);
+      font-weight: 800;
+      color: var(--green);
+      line-height: 1;
+    }
+    .story-stat-label {
+      font-size: var(--text-sm);
+      color: var(--mid);
+      margin-top: var(--space-1);
+    }
+    .story-visual {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: var(--space-3);
+    }
+    .story-vis-block {
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+    }
+    .story-vis-block:first-child {
+      grid-column: span 2;
+      aspect-ratio: 16/7;
+    }
+    .story-vis-block:not(:first-child) { aspect-ratio: 1; }
+    .vis-1 { background: url('images/els-slide10.jpg') center/cover no-repeat; background-color: #2d4a2d; }
+    .vis-2 { background: url('images/els-slide5.jpg') center/cover no-repeat; background-color: #3d2b1a; }
+    .vis-3 { background: url('images/els-slide6.jpg') center/cover no-repeat; background-color: #3a3530; }
+
+    /* ============================================================
+       SHIPPING INFO BAR
+    ============================================================ */
+    .shipping-bar {
+      background: var(--charcoal);
+      padding-block: var(--space-12);
+    }
+    .shipping-bar .container {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: var(--space-6);
+    }
+    @media (min-width: 640px) {
+      .shipping-bar .container { grid-template-columns: repeat(3, 1fr); }
+    }
+    .shipping-item {
+      display: flex;
+      gap: var(--space-4);
+      align-items: flex-start;
+    }
+    .shipping-icon {
+      width: 2.5rem;
+      height: 2.5rem;
+      flex-shrink: 0;
+      background: rgba(255,255,255,0.08);
+      border-radius: var(--radius);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #86efac;
+    }
+    .shipping-title {
+      font-size: var(--text-sm);
+      font-weight: 600;
+      color: var(--white);
+      margin-bottom: var(--space-1);
+    }
+    .shipping-desc {
+      font-size: var(--text-sm);
+      color: rgba(255,255,255,0.6);
+      line-height: 1.5;
+    }
+
+    /* ============================================================
+       FOOTER
+    ============================================================ */
+    .site-footer {
+      background: #111;
+      color: rgba(255,255,255,0.6);
+      padding-block: var(--space-16) var(--space-10);
+    }
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: var(--space-10);
+      margin-bottom: var(--space-12);
+    }
+    @media (min-width: 640px) {
+      .footer-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (min-width: 1024px) {
+      .footer-grid { grid-template-columns: 2fr 1fr 1fr 1fr; }
+    }
+    .footer-brand-name {
+      font-size: var(--text-base);
+      font-weight: 700;
+      color: var(--white);
+      margin-bottom: var(--space-3);
+    }
+    .footer-brand-desc {
+      font-size: var(--text-sm);
+      line-height: 1.65;
+      color: rgba(255,255,255,0.5);
+      max-width: 280px;
+      margin-bottom: var(--space-5);
+    }
+    .footer-contact a {
+      display: flex;
+      align-items: center;
+      gap: var(--space-2);
+      font-size: var(--text-sm);
+      color: rgba(255,255,255,0.6);
+      margin-bottom: var(--space-2);
+      transition: color 0.15s;
+    }
+    .footer-contact a:hover { color: #86efac; }
+    .footer-col-title {
+      font-size: var(--text-xs);
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.35);
+      margin-bottom: var(--space-4);
+    }
+    .footer-links li { margin-bottom: var(--space-2); }
+    .footer-links a {
+      font-size: var(--text-sm);
+      color: rgba(255,255,255,0.55);
+      transition: color 0.15s;
+    }
+    .footer-links a:hover { color: rgba(255,255,255,0.9); }
+    .footer-bottom {
+      border-top: 1px solid rgba(255,255,255,0.08);
+      padding-top: var(--space-8);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: var(--space-4);
+      font-size: var(--text-xs);
+      color: rgba(255,255,255,0.3);
+    }
+    .footer-bottom-links {
+      display: flex;
+      gap: var(--space-5);
+      flex-wrap: wrap;
+    }
+    .footer-bottom-links a {
+      color: rgba(255,255,255,0.3);
+      transition: color 0.15s;
+    }
+    .footer-bottom-links a:hover { color: rgba(255,255,255,0.6); }
+
+    /* ============================================================
+       CALCULATOR CTA BAND
+    ============================================================ */
+    .calc-band {
+      background: var(--navy);
+      padding-block: var(--space-16);
+    }
+    .calc-band .container {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: var(--space-8);
+      align-items: center;
+    }
+    @media (min-width: 768px) {
+      .calc-band .container { grid-template-columns: 1fr auto; }
+    }
+    .calc-eyebrow {
+      font-size: var(--text-xs);
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: #86efac;
+      margin-bottom: var(--space-3);
+    }
+    .calc-headline {
+      font-size: var(--text-3xl);
+      font-weight: 800;
+      color: var(--white);
+      line-height: 1.15;
+      margin-bottom: var(--space-3);
+      text-wrap: balance;
+    }
+    .calc-desc {
+      font-size: var(--text-base);
+      color: rgba(255,255,255,0.65);
+      line-height: 1.6;
+      max-width: 520px;
+    }
+    .calc-actions {
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-3);
+    }
+    @media (min-width: 480px) { .calc-actions { flex-direction: row; align-items: center; flex-wrap: wrap; } }
+
+    /* ============================================================
+       MOBILE NAV DRAWER
+    ============================================================ */
+    .mobile-nav {
+      display: none;
+      position: fixed;
+      inset: 0;
+      z-index: 300;
+    }
+    .mobile-nav--open { display: block; }
+    .mobile-nav-overlay {
+      position: absolute;
+      inset: 0;
+      background: rgba(0,0,0,0.55);
+    }
+    .mobile-nav-drawer {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      width: min(320px, 88vw);
+      background: var(--white);
+      display: flex;
+      flex-direction: column;
+      overflow-y: auto;
+      transform: translateX(100%);
+      transition: transform 0.25s cubic-bezier(0.4,0,0.2,1);
+      box-shadow: -8px 0 32px rgba(0,0,0,0.2);
+    }
+    .mobile-nav--open .mobile-nav-drawer { transform: translateX(0); }
+    .mobile-nav-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: var(--space-5) var(--space-6);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      background: var(--white);
+      z-index: 1;
+    }
+    .mobile-nav-title {
+      font-size: var(--text-sm);
+      font-weight: 700;
+      color: var(--charcoal);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+    .mobile-nav-close {
+      width: 2.5rem;
+      height: 2.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: var(--radius-sm);
+      color: var(--mid);
+      transition: color 0.15s, background 0.15s;
+    }
+    .mobile-nav-close:hover { color: var(--charcoal); background: var(--earth); }
+    .mobile-nav-list {
+      flex: 1;
+      padding: var(--space-4) 0;
+      overflow-y: auto;
+    }
+    .mobile-nav-list a {
+      display: block;
+      padding: 0.75rem var(--space-6);
+      font-size: var(--text-base);
+      font-weight: 500;
+      color: var(--charcoal);
+      transition: color 0.15s, background 0.15s;
+    }
+    .mobile-nav-list a:hover { color: var(--green); background: var(--green-light); }
+    .mobile-nav-section-label {
+      display: block;
+      padding: 0.5rem var(--space-6) 0.25rem;
+      font-size: var(--text-xs);
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-top: var(--space-3);
+    }
+    .mobile-nav-section-label:first-child { margin-top: 0; }
+    .mobile-nav-divider {
+      height: 1px;
+      background: var(--border);
+      margin: var(--space-3) var(--space-6);
+    }
+    .mobile-nav-footer {
+      padding: var(--space-5) var(--space-6);
+      border-top: 1px solid var(--border);
+      background: var(--earth);
+    }
+
+    /* ============================================================
+       FOCUS VISIBLE
+    ============================================================ */
+    :focus-visible {
+      outline: 2px solid var(--green);
+      outline-offset: 2px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ============================================================
+       UTILITY BAR
+  ============================================================ -->
+  <div class="utility-bar">
+    <div class="container">
+      <span class="utility-tagline">Family-owned in Colorado since 1981</span>
+      <div class="utility-contact">
+        <a href="tel:18008433336" aria-label="Call us at 1-800-843-3336">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 0h3a2 2 0 012 1.72c.12 1 .36 1.96.7 2.88a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.2-1.2a2 2 0 012.11-.45c.92.34 1.88.58 2.88.7A2 2 0 0122 14.14v2.78z"/></svg>
+          1-800-843-3336
+        </a>
+        <span>Mon-Fri, 9am-4pm MT</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       SITE HEADER
+  ============================================================ -->
+  <header class="site-header">
+    <div class="container header-inner">
+
+      <!-- Logo -->
+      <a href="/" class="site-logo" aria-label="Everlock Home Supply — Home">
+        <div class="logo-mark" aria-hidden="true">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+        </div>
+        <div class="logo-text">
+          <span class="logo-name">Everlock Home Supply</span>
+          <span class="logo-sub">Novik Siding &amp; Roofing</span>
+        </div>
+      </a>
+
+      <!-- Primary Navigation -->
+      <nav class="primary-nav" aria-label="Main navigation">
+
+        <div class="nav-item">
+          <a href="/siding/wood-look" class="nav-link" aria-haspopup="true">
+            Wood Look
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+          </a>
+          <div class="nav-dropdown" role="menu">
+            <a href="/siding/cedar-shake" class="dropdown-link" role="menuitem">Cedar Shake 8'</a>
+            <a href="/siding/roughsawn-cedar" class="dropdown-link" role="menuitem">Roughsawn Cedar</a>
+            <a href="/siding/cedar-plank" class="dropdown-link" role="menuitem">Cedar Plank</a>
+            <a href="/siding/staggered-edge" class="dropdown-link" role="menuitem">Staggered Edge Shake</a>
+            <a href="/siding/perfect-shake" class="dropdown-link" role="menuitem">Perfect Shake</a>
+            <a href="/siding/hand-split" class="dropdown-link" role="menuitem">Hand-Split Shake</a>
+            <div class="dropdown-divider"></div>
+            <a href="/siding/wood-look" class="dropdown-link" role="menuitem">View all wood look</a>
+          </div>
+        </div>
+
+        <div class="nav-item">
+          <a href="/siding/stone-brick" class="nav-link" aria-haspopup="true">
+            Stone &amp; Brick
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+          </a>
+          <div class="nav-dropdown" role="menu">
+            <a href="/siding/stacked-stone" class="dropdown-link" role="menuitem">Stacked Stone</a>
+            <a href="/siding/hand-laid-brick" class="dropdown-link" role="menuitem">Hand-Laid Brick</a>
+            <a href="/siding/fieldstone" class="dropdown-link" role="menuitem">Fieldstone</a>
+            <a href="/siding/premium-stone" class="dropdown-link" role="menuitem">Premium Stone</a>
+            <a href="/siding/river-rock" class="dropdown-link" role="menuitem">River Rock</a>
+            <div class="dropdown-divider"></div>
+            <a href="/siding/stone-brick" class="dropdown-link" role="menuitem">View all stone &amp; brick</a>
+          </div>
+        </div>
+
+        <div class="nav-item">
+          <a href="/roofing" class="nav-link" aria-haspopup="true">
+            Roofing
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+          </a>
+          <div class="nav-dropdown" role="menu">
+            <a href="/roofing/slate-tile-replica" class="dropdown-link" role="menuitem">Slate Tile Replica</a>
+            <a href="/roofing/clay-tile" class="dropdown-link" role="menuitem">Clay Tile</a>
+            <a href="/roofing/cedar-shingle" class="dropdown-link" role="menuitem">Cedar Shingle</a>
+            <div class="dropdown-divider"></div>
+            <a href="/roofing" class="dropdown-link" role="menuitem">View all roofing</a>
+          </div>
+        </div>
+
+        <a href="/accessories" class="nav-link">Trim &amp; Accessories</a>
+
+        <div class="nav-item">
+          <a href="/get-started" class="nav-link" aria-haspopup="true">
+            Get Started
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+          </a>
+          <div class="nav-dropdown" role="menu">
+            <a href="/samples" class="dropdown-link" role="menuitem">Order a Sample</a>
+            <a href="/calculator" class="dropdown-link" role="menuitem">Project Calculator</a>
+            <a href="/installation" class="dropdown-link" role="menuitem">Installation Guides</a>
+            <a href="/faq" class="dropdown-link" role="menuitem">FAQs</a>
+          </div>
+        </div>
+
+        <a href="/contractors" class="nav-link">For Contractors</a>
+
+      </nav>
+
+      <!-- Header Actions -->
+      <div class="header-actions">
+        <a href="tel:18008433336" class="btn-phone" aria-label="Call 1-800-843-3336">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 0h3a2 2 0 012 1.72c.12 1 .36 1.96.7 2.88a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.2-1.2a2 2 0 012.11-.45c.92.34 1.88.58 2.88.7A2 2 0 0122 14.14v2.78z"/></svg>
+          800-843-3336
+        </a>
+        <a href="/cart" class="btn-cart" aria-label="Shopping cart, 0 items">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 002 1.61h9.72a2 2 0 001.93-1.45l1.5-8.55H6"/></svg>
+          <span class="cart-count" aria-hidden="true">0</span>
+        </a>
+        <button class="btn-menu" id="menuBtn" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobileNav">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- ============================================================
+       HERO
+  ============================================================ -->
+  <section class="hero" aria-label="Hero">
+    <div class="hero-bg" role="img" aria-label="Home exterior with Novik polymer siding installed"></div>
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-eyebrow">
+          <span class="hero-eyebrow-dot" aria-hidden="true"></span>
+          Factory direct. No contractors needed.
+        </div>
+        <h1 class="hero-headline">
+          Your home could look like <em>this</em> by next weekend.
+        </h1>
+        <p class="hero-sub">
+          Factory-direct Novik polymer siding and roofing from our Colorado facility. Works on conventional homes, mobile homes, and manufactured homes. One-person install. Limited lifetime warranty.
+        </p>
+        <div class="hero-actions">
+          <a href="/siding" class="btn btn-primary btn-lg">
+            Shop siding
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+          <a href="/roofing" class="btn btn-outline-white btn-lg">Shop roofing</a>
+          <a href="/samples" class="btn btn-ghost" style="color:rgba(255,255,255,0.8); font-size: var(--text-base);">
+            Order a sample
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       TRUST ROW
+  ============================================================ -->
+  <div class="trust-row" aria-label="Why buy from Everlock Home Supply">
+    <div class="container">
+
+      <div class="trust-item">
+        <div class="trust-icon" aria-hidden="true">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        </div>
+        <div>
+          <div class="trust-stat">45+</div>
+          <div class="trust-label">Years in business</div>
+        </div>
+      </div>
+
+      <div class="trust-item">
+        <div class="trust-icon" aria-hidden="true">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"/></svg>
+        </div>
+        <div>
+          <div class="trust-stat">Factory</div>
+          <div class="trust-label">Direct pricing, no markup</div>
+        </div>
+      </div>
+
+      <div class="trust-item">
+        <div class="trust-icon" aria-hidden="true">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <div>
+          <div class="trust-stat">Lifetime</div>
+          <div class="trust-label">Limited warranty</div>
+        </div>
+      </div>
+
+      <div class="trust-item">
+        <div class="trust-icon" aria-hidden="true">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+        </div>
+        <div>
+          <div class="trust-stat">DIY Easy</div>
+          <div class="trust-label">One-person install</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ============================================================
+       SHOP BY LOOK
+  ============================================================ -->
+  <section class="section" aria-labelledby="categories-heading">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Shop by look</span>
+        <h2 class="section-heading" id="categories-heading">What do you want your home to look like?</h2>
+        <p class="section-sub">Choose the look. We'll help you figure out how much you need and get it shipped directly to your door.</p>
+      </div>
+
+      <div class="categories-grid">
+
+        <a href="/siding/wood-look" class="category-card cat-wood" aria-label="Shop wood look siding — Cedar Shake, Roughsawn Cedar, Cedar Plank, and more">
+          <div class="category-card-bg" role="img" aria-label="Roughsawn Cedar siding installed on a home"></div>
+          <div class="category-card-overlay" aria-hidden="true"></div>
+          <div class="category-card-content">
+            <span class="category-tag">Siding</span>
+            <h3 class="category-name">Wood Look</h3>
+            <p class="category-count">Cedar Shake, Plank, Roughsawn &amp; more</p>
+            <span class="category-arrow">
+              Shop wood look
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </span>
+          </div>
+        </a>
+
+        <a href="/siding/stone-brick" class="category-card cat-stone" aria-label="Shop stone and brick siding — Stacked Stone, Hand-Laid Brick, Fieldstone, and more">
+          <div class="category-card-bg" role="img" aria-label="Novik stone siding installed on a home"></div>
+          <div class="category-card-overlay" aria-hidden="true"></div>
+          <div class="category-card-content">
+            <span class="category-tag">Siding</span>
+            <h3 class="category-name">Stone &amp; Brick</h3>
+            <p class="category-count">Stacked Stone, Brick, Fieldstone &amp; more</p>
+            <span class="category-arrow">
+              Shop stone &amp; brick
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </span>
+          </div>
+        </a>
+
+        <a href="/roofing" class="category-card cat-roofing" aria-label="Shop roofing — Slate Tile Replica, Clay Tile, Cedar Shingle">
+          <div class="category-card-bg" role="img" aria-label="Novik Slate Tile Replica roofing installed on a home"></div>
+          <div class="category-card-overlay" aria-hidden="true"></div>
+          <div class="category-card-content">
+            <span class="category-tag">Roofing</span>
+            <h3 class="category-name">Roofing</h3>
+            <p class="category-count">Slate Replica, Clay Tile, Cedar Shingle</p>
+            <span class="category-arrow">
+              Shop roofing
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </span>
+          </div>
+        </a>
+
+        <a href="/accessories" class="category-card cat-accessories" aria-label="Shop trim and accessories — corners, starter strips, vents, and trim">
+          <div class="category-card-bg" role="img" aria-label="Novik brick siding installed on a home"></div>
+          <div class="category-card-overlay" aria-hidden="true"></div>
+          <div class="category-card-content">
+            <span class="category-tag">Accessories</span>
+            <h3 class="category-name">Trim &amp; Accessories</h3>
+            <p class="category-count">Corners, starter strips, vents &amp; trim</p>
+            <span class="category-arrow">
+              Shop accessories
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </span>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       HOW IT WORKS
+  ============================================================ -->
+  <section class="section section-alt" aria-labelledby="how-heading">
+    <div class="container">
+      <div class="section-header-centered">
+        <span class="section-label">How it works</span>
+        <h2 class="section-heading" id="how-heading">From first look to finished exterior in a weekend</h2>
+        <p class="section-sub">We've been doing this since 1981. Here's how to go from picking a color to standing back and admiring your work.</p>
+      </div>
+
+      <div class="steps-grid" role="list">
+
+        <div class="step" role="listitem">
+          <div class="step-num" aria-hidden="true">1</div>
+          <h3 class="step-title">Order a sample</h3>
+          <p class="step-desc">Get a hand sample and color chip ring shipped to your door for $20-$25. See the texture, feel the weight, and hold it up to your home before committing to a full order.</p>
+        </div>
+
+        <div class="step" role="listitem">
+          <div class="step-num" aria-hidden="true">2</div>
+          <h3 class="step-title">Measure your project</h3>
+          <p class="step-desc">Walk your home and measure the sections you're siding. Write down the length, height, and note your door and window openings. Rough numbers are fine at this stage.</p>
+        </div>
+
+        <div class="step" role="listitem">
+          <div class="step-num" aria-hidden="true">3</div>
+          <h3 class="step-title">Use the project calculator</h3>
+          <p class="step-desc">Enter your measurements. The calculator accounts for waste, outputs the right number of cartons, and adds coordinated corners, trim, and starter strips automatically.</p>
+        </div>
+
+        <div class="step" role="listitem">
+          <div class="step-num" aria-hidden="true">4</div>
+          <h3 class="step-title">Order direct, ship nationwide</h3>
+          <p class="step-desc">Place your order online or by phone. We'll arrange LTL freight shipping to your door. Most orders ship within 5 business days, with some colors shipping in 15.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CALCULATOR CTA BAND
+  ============================================================ -->
+  <div class="calc-band" aria-label="Project calculator">
+    <div class="container">
+      <div>
+        <p class="calc-eyebrow">Project calculator</p>
+        <h2 class="calc-headline">Not sure how much you need?</h2>
+        <p class="calc-desc">Enter your home's dimensions and get a carton count in seconds. Accounts for windows, doors, and a 10% waste buffer. No sign-up required.</p>
+      </div>
+      <div class="calc-actions">
+        <a href="/calculator" class="btn btn-primary btn-lg">Use the calculator</a>
+        <a href="/installation" class="btn btn-outline-white">Installation guides</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       SAMPLE ORDER
+  ============================================================ -->
+  <section class="sample-section" aria-labelledby="sample-heading">
+    <div class="container">
+      <div class="sample-grid">
+
+        <div class="sample-media" aria-label="Color sample chips showing available Novik siding colors">
+          <div class="sample-media-inner" aria-hidden="true">
+            <div class="sample-chip chip-cedar">Cedar</div>
+            <div class="sample-chip chip-stone">Stone</div>
+            <div class="sample-chip chip-brick">Brick</div>
+            <div class="sample-chip chip-shake">Shake</div>
+            <div class="sample-chip chip-fieldstone">Fieldstone</div>
+            <div class="sample-chip chip-slate">Slate</div>
+          </div>
+          <div class="sample-label-badge">Color chip ring included</div>
+        </div>
+
+        <div>
+          <span class="section-label">Try before you buy</span>
+          <h2 class="section-heading" id="sample-heading">Hold it in your hands before you order cartons of it</h2>
+          <p style="color: var(--mid); line-height: 1.65; margin-top: 1rem; max-width: 480px;">
+            Each sample kit includes a hand sample panel and a full color chip ring so you can compare your options side by side. Hold it up to your home, check it in different lighting, and order with confidence.
+          </p>
+
+          <div class="sample-price">
+            <span class="sample-price-amount">$20</span>
+            <span class="sample-price-unit">per sample kit</span>
+          </div>
+          <p class="sample-fine">Includes one hand sample and universal siding color selector chip ring. Ships within 5 business days.</p>
+
+          <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; align-items: center;">
+            <a href="/samples" class="btn btn-primary">Order a sample kit</a>
+            <a href="/siding" class="btn btn-ghost">
+              Browse all products
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       COMPANY STORY
+  ============================================================ -->
+  <section class="story-section" aria-labelledby="story-heading">
+    <div class="container">
+      <div class="story-grid">
+
+        <div>
+          <span class="section-label">About Everlock</span>
+          <h2 class="section-heading" id="story-heading">Factory direct from Colorado. For over 45 years.</h2>
+          <p style="color: var(--mid); line-height: 1.7; margin-top: 1.25rem;">
+            Everlock Home Supply is a division of Everlock Systems, Inc., a family-owned manufacturer based in Boulder, Colorado. Since 1981, we've been helping homeowners, contractors, and DIYers upgrade the exterior of conventional homes, mobile homes, and manufactured homes.
+          </p>
+          <p style="color: var(--mid); line-height: 1.7; margin-top: 1rem;">
+            As an exclusive online supplier of Novik polymer siding and roofing, we sell directly from our Colorado facility. No distributor markup. No middleman. When you order from EverLockHomeSupply.com, you're ordering from the people who know these products inside out.
+          </p>
+          <p style="color: var(--mid); line-height: 1.7; margin-top: 1rem;">
+            Questions? Call us at 800-843-3336 and you'll reach a real person, Monday through Friday, 9am to 4pm Mountain Time.
+          </p>
+
+          <div class="story-stats" aria-label="Company facts">
+            <div class="story-stat">
+              <div class="story-stat-num">1981</div>
+              <div class="story-stat-label">Year founded, Boulder CO</div>
+            </div>
+            <div class="story-stat">
+              <div class="story-stat-num">50yr</div>
+              <div class="story-stat-label">Novik roofing warranty</div>
+            </div>
+            <div class="story-stat">
+              <div class="story-stat-num">110+</div>
+              <div class="story-stat-label">mph wind resistance tested</div>
+            </div>
+            <div class="story-stat">
+              <div class="story-stat-num">Class 4</div>
+              <div class="story-stat-label">Impact resistance rating</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="story-visual" aria-hidden="true" role="presentation">
+          <div class="story-vis-block vis-1"></div>
+          <div class="story-vis-block vis-2"></div>
+          <div class="story-vis-block vis-3"></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SHIPPING INFO
+  ============================================================ -->
+  <div class="shipping-bar" aria-label="Shipping and delivery information">
+    <div class="container">
+
+      <div class="shipping-item">
+        <div class="shipping-icon" aria-hidden="true">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="3" width="15" height="13" rx="1"/><path d="M16 8h4l3 5v3h-7V8z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+        </div>
+        <div>
+          <p class="shipping-title">LTL freight shipping</p>
+          <p class="shipping-desc">Most products ship via freight carrier throughout the continental U.S. and Canada. You'll receive a call to schedule delivery. Someone must be present to accept and inspect the shipment.</p>
+        </div>
+      </div>
+
+      <div class="shipping-item">
+        <div class="shipping-icon" aria-hidden="true">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        </div>
+        <div>
+          <p class="shipping-title">Ships in 5-15 business days</p>
+          <p class="shipping-desc">Most colors ship within 5 business days. Select colors (including Prairie Wheat, Sierra, Heritage Gray, and others) ship within 15 business days. Timeline shown on each product page.</p>
+        </div>
+      </div>
+
+      <div class="shipping-item">
+        <div class="shipping-icon" aria-hidden="true">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 0h3a2 2 0 012 1.72c.12 1 .36 1.96.7 2.88a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.2-1.2a2 2 0 012.11-.45c.92.34 1.88.58 2.88.7A2 2 0 0122 14.14v2.78z"/></svg>
+        </div>
+        <div>
+          <p class="shipping-title">Questions? Call us.</p>
+          <p class="shipping-desc">Reach us at 800-843-3336, Monday through Friday, 9am to 4pm Mountain Time. Real people based in Boulder, Colorado. We can help you estimate your project before you order.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ============================================================
+       MOBILE NAV DRAWER
+  ============================================================ -->
+  <div class="mobile-nav" id="mobileNav" aria-hidden="true" aria-label="Mobile navigation">
+    <div class="mobile-nav-overlay" id="mobileNavOverlay"></div>
+    <nav class="mobile-nav-drawer" role="navigation" aria-label="Site navigation">
+      <div class="mobile-nav-header">
+        <span class="mobile-nav-title">Menu</span>
+        <button class="mobile-nav-close" id="mobileNavClose" aria-label="Close navigation">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+      <ul class="mobile-nav-list">
+        <li><span class="mobile-nav-section-label">Siding</span></li>
+        <li><a href="/siding/wood-look">Wood Look Siding</a></li>
+        <li><a href="/siding/stone-brick">Stone &amp; Brick Siding</a></li>
+        <li><a href="/siding">View all siding</a></li>
+        <li><span class="mobile-nav-section-label">Roofing</span></li>
+        <li><a href="/roofing/slate-tile-replica">Slate Tile Replica</a></li>
+        <li><a href="/roofing/clay-tile">Clay Tile</a></li>
+        <li><a href="/roofing">View all roofing</a></li>
+        <li><a href="/accessories">Trim &amp; Accessories</a></li>
+        <li><div class="mobile-nav-divider"></div></li>
+        <li><span class="mobile-nav-section-label">Get Started</span></li>
+        <li><a href="/samples">Order a Sample — $20</a></li>
+        <li><a href="/calculator">Project Calculator</a></li>
+        <li><a href="/installation">Installation Guides</a></li>
+        <li><a href="/manufactured-homes">Mobile &amp; Manufactured Homes</a></li>
+        <li><a href="/faq">FAQs</a></li>
+        <li><div class="mobile-nav-divider"></div></li>
+        <li><a href="/contractors">For Contractors</a></li>
+        <li><a href="/about">About Us</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+      <div class="mobile-nav-footer">
+        <a href="tel:18008433336" class="btn btn-primary" style="width:100%;justify-content:center;">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 0h3a2 2 0 012 1.72c.12 1 .36 1.96.7 2.88a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.2-1.2a2 2 0 012.11-.45c.92.34 1.88.58 2.88.7A2 2 0 0122 14.14v2.78z"/></svg>
+          Call 800-843-3336
+        </a>
+        <p style="text-align:center;font-size:var(--text-xs);color:var(--muted);margin-top:0.5rem;">Mon-Fri, 9am-4pm Mountain Time</p>
+      </div>
+    </nav>
+  </div>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+
+        <div>
+          <p class="footer-brand-name">Everlock Home Supply</p>
+          <p class="footer-brand-desc">Exclusive online supplier of Novik polymer siding and roofing. A division of Everlock Systems, Inc. Family-owned in Boulder, Colorado since 1981.</p>
+          <div class="footer-contact">
+            <a href="tel:18008433336">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 0h3a2 2 0 012 1.72c.12 1 .36 1.96.7 2.88a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.2-1.2a2 2 0 012.11-.45c.92.34 1.88.58 2.88.7A2 2 0 0122 14.14v2.78z"/></svg>
+              1-800-843-3336
+            </a>
+            <a href="mailto:info@skirtingdirect.com">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              info@skirtingdirect.com
+            </a>
+            <p style="font-size: var(--text-sm); margin-top: 0.25rem;">Mon-Fri, 9am-4pm Mountain Time</p>
+          </div>
+        </div>
+
+        <div>
+          <p class="footer-col-title">Wood look siding</p>
+          <ul class="footer-links">
+            <li><a href="/siding/cedar-shake">Cedar Shake (8 ft)</a></li>
+            <li><a href="/siding/roughsawn-cedar">Roughsawn Cedar</a></li>
+            <li><a href="/siding/cedar-plank">Cedar Plank</a></li>
+            <li><a href="/siding/perfect-shake">Perfect Shake</a></li>
+            <li><a href="/siding/wood-look">View all wood look</a></li>
+          </ul>
+          <p class="footer-col-title" style="margin-top: 1.25rem;">Stone &amp; Brick siding</p>
+          <ul class="footer-links">
+            <li><a href="/siding/stacked-stone">Stacked Stone Panel</a></li>
+            <li><a href="/siding/hand-laid-brick">Hand-Laid Brick</a></li>
+            <li><a href="/siding/fieldstone">Fieldstone</a></li>
+            <li><a href="/siding/stone-brick">View all stone &amp; brick</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <p class="footer-col-title">Roofing</p>
+          <ul class="footer-links">
+            <li><a href="/roofing/slate-tile-replica">Slate Tile Replica</a></li>
+            <li><a href="/roofing/clay-tile">Clay Tile</a></li>
+            <li><a href="/roofing/cedar-shingle">Cedar Shingle</a></li>
+            <li><a href="/roofing">View all roofing</a></li>
+          </ul>
+          <p class="footer-col-title" style="margin-top: 1.25rem;">Get started</p>
+          <ul class="footer-links">
+            <li><a href="/samples">Order a sample — $20</a></li>
+            <li><a href="/calculator">Project calculator</a></li>
+            <li><a href="/installation">Installation guides</a></li>
+            <li><a href="/manufactured-homes">Mobile &amp; manufactured homes</a></li>
+            <li><a href="/faq">FAQs</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <p class="footer-col-title">Company</p>
+          <ul class="footer-links">
+            <li><a href="/about">About Everlock</a></li>
+            <li><a href="/contractors">For contractors</a></li>
+            <li><a href="/contact">Contact us</a></li>
+          </ul>
+          <p class="footer-col-title" style="margin-top: 1.25rem;">Policies</p>
+          <ul class="footer-links">
+            <li><a href="/policies">Shipping &amp; returns</a></li>
+            <li><a href="/warranty">Warranty information</a></li>
+            <li><a href="/privacy">Privacy policy</a></li>
+          </ul>
+          <p class="footer-col-title" style="margin-top: 1.25rem;">Sister sites</p>
+          <ul class="footer-links">
+            <li><a href="https://www.skirtingdirect.com" rel="noopener">SkirtingDirect.com</a></li>
+            <li><a href="https://www.everlock.com" rel="noopener">Everlock.com</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>&#169; 2026 Everlock Systems, Inc. All rights reserved. Boulder, Colorado.</p>
+        <nav class="footer-bottom-links" aria-label="Legal navigation">
+          <a href="/policies">Policies &amp; Shipping</a>
+          <a href="/privacy">Privacy Policy</a>
+          <a href="/sitemap">Sitemap</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+  /* ============================================================
+     MOBILE MENU
+  ============================================================ */
+  (function () {
+    var menuBtn     = document.getElementById('menuBtn');
+    var mobileNav   = document.getElementById('mobileNav');
+    var navClose    = document.getElementById('mobileNavClose');
+    var navOverlay  = document.getElementById('mobileNavOverlay');
+
+    function openMenu() {
+      mobileNav.classList.add('mobile-nav--open');
+      mobileNav.setAttribute('aria-hidden', 'false');
+      menuBtn.setAttribute('aria-expanded', 'true');
+      document.body.style.overflow = 'hidden';
+      navClose.focus();
+    }
+    function closeMenu() {
+      mobileNav.classList.remove('mobile-nav--open');
+      mobileNav.setAttribute('aria-hidden', 'true');
+      menuBtn.setAttribute('aria-expanded', 'false');
+      document.body.style.overflow = '';
+      menuBtn.focus();
+    }
+
+    menuBtn.addEventListener('click', openMenu);
+    navClose.addEventListener('click', closeMenu);
+    navOverlay.addEventListener('click', closeMenu);
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && mobileNav.classList.contains('mobile-nav--open')) closeMenu();
+    });
+  }());
+
+  </script>
+</body>
+</html>
